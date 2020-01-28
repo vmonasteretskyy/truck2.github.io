@@ -64,9 +64,4 @@ $(document).ready(function() {
   button_2.click(function(e) {
     modals(block_2, inputs_2);
   });
-  $(".close_btn").click(function() {
-    $(".form_block_1").addClass("active_block");
-    $(".form_block_2").removeClass("active_block");
-    $(".form_block_3").removeClass("active_block");
-  });
 });

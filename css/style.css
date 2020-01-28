@@ -281,9 +281,9 @@ footer .footer_social a { margin-right: 15px; }
 
 .collapse_wrapper:last-child { border-bottom: 1px solid #f6f7f9; }
 
-.main_btn { transition: all 0.3s; }
+.main_btn { transition: all 0.1s; }
 
-.main_btn:hover { -webkit-transform: scale(1.05); -ms-transform: scale(1.05); transform: scale(1.05); }
+.main_btn:hover { color: #29304f; }
 
 .footer_social a { transition: all 0.2s; }
 

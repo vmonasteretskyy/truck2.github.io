@@ -402,9 +402,9 @@ footer {
 }
 
 .main_btn {
-  transition: all 0.3s;
+  transition: all 0.1s;
   &:hover {
-    transform: scale(1.05);
+    color: #29304f;
   }
 }
 .footer_social a {
