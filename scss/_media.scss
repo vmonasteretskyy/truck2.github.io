@@ -297,4 +297,29 @@
   header {
     height: 70px;
   }
+
+  .form_title {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  .fill_wrap {
+    margin-bottom: 15px;
+    input {
+      height: 40px;
+    }
+  }
+  .proress_item {
+    div {
+      height: 40px;
+      width: 40px;
+      font-size: 16px;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+  .proress::after {
+    width: calc(100% - 50px);
+    top: 15px;
+  }
 }

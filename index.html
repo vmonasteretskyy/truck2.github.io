@@ -13,6 +13,225 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
+      <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog modal-dialog-centered">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-body">
+                  <div class="close_btn"  data-dismiss="modal" aria-label="Close">
+                      <img src="./images/close.svg" alt="">
+                  </div>
+                    <form class="form_modal" action="">
+                             <div class="form_block form_block_1 active_block">
+                              <p class="form_title">
+                                Get instant quote or call now
+                              </p>
+                              <div class="fill_wrap">
+                                <label for="car_from">Transport car from</label>
+                                <input id="car_from" type="text" required />
+                              </div>
+                              <div class="fill_wrap">
+                                <label for="car_to">Transport car to</label>
+                                <input id="car_to" type="text" required />
+                              </div>
+                              <div class="check_wrap">
+                                <p class="check_title">
+                                  Transport type
+                                </p>
+                                <label for="open_check">
+                                  <input
+                                    id="open_check"
+                                    type="radio"
+                                    name="transportType"
+                                    value="Open"
+                                    checked
+                                  />
+                                  <span class="checkmark"></span>
+                      
+                                  <span> Open</span>
+                                </label>
+                                <label for="enclosed_check">
+                                  <span class="checkmark"></span>
+                                  <input
+                                    id="enclosed_check"
+                                    type="radio"
+                                    name="transportType"
+                                    value="Enclosed"
+                                  />
+                                  <span class="checkmark"></span>
+                                  <span>
+                                    Enclosed
+                                  </span>
+                                </label>
+                              </div>
+                              <button class="main_btn orange_btn" type="button">
+                               VEHICLE DETAILS
+                              </button>
+                              <div class="proress">
+                                <div class="proress_item">
+                                  <div>
+                                    <span>
+                                      1
+                                    </span>
+                                  </div>
+                                  <p>
+                                    Destination
+                                  </p>
+                                </div>
+                                <div class="proress_item">
+                                  <div>
+                                    <span>
+                                      2
+                                    </span>
+                                  </div>
+                                  <p>
+                                    Vehicle
+                                  </p>
+                                </div>
+                                <div class="proress_item">
+                                  <div>
+                                    <span>
+                                      3
+                                    </span>
+                                  </div>
+                                  <p>
+                                    Date
+                                  </p>
+                                </div>
+                              </div>
+                            </div> 
+                            <div class="form_block form_block_2">
+                              <div class="fill_wrap">
+                                <label for="Vechicle_year">Vechicle year</label>
+                                <input id="Vechicle_year" type="text" required />
+                              </div>
+                              <div class="fill_wrap">
+                                <label for="Vechicle_make">Vechicle make</label>
+                                <input id="Vechicle_make" type="text"  required/>
+                              </div>
+                              <div class="fill_wrap">
+                                <label for="Vechicle_model">Vechicle model</label>
+                                <input id="Vechicle_model" type="text" required />
+                              </div>
+                              <div class="check_wrap">
+                                <p class="check_title">
+                                  Is it operable
+                                </p>
+                                <label for="Is_operable_yes">
+                                  <input
+                                    id="Is_operable_yes"
+                                    type="radio"
+                                    name="Is_operable"
+                                    value="Yes"
+                                  />
+                                  <span class="checkmark"></span>
+                      
+                                  <span> Yes</span>
+                                </label>
+                                <label for="Is_operable_no">
+                                  <span class="checkmark"></span>
+                                  <input
+                                    id="Is_operable_no"
+                                    type="radio"
+                                    name="Is_operable"
+                                    value="No"
+                                  />
+                                  <span class="checkmark"></span>
+                                  <span>
+                                    No
+                                  </span>
+                                </label>
+                              </div>
+                              <button class="main_btn orange_btn" type="button">
+                                    SHIPPING DATE
+                              </button>
+                              <div class="proress">
+                                <div class="proress_item">
+                                  <div>
+                                    <span>
+                                      1
+                                    </span>
+                                  </div>
+                                  <p>
+                                    Destination
+                                  </p>
+                                </div>
+                                <div class="proress_item">
+                                  <div>
+                                    <span>
+                                      2
+                                    </span>
+                                  </div>
+                                  <p>
+                                    Vehicle
+                                  </p>
+                                </div>
+                                <div class="proress_item">
+                                  <div>
+                                    <span>
+                                      3
+                                    </span>
+                                  </div>
+                                  <p>
+                                    Date
+                                  </p>
+                                </div>
+                              </div>
+                            </div> 
+                            <div class="form_block form_block_3 ">
+                              <div class="fill_wrap">
+                                <label for="Email">Send a copy of the quote</label>
+                                <input id="Email" type="email"  required/>
+                              </div>
+                              <div class="fill_wrap">
+                                <label for="Name">Name</label>
+                                <input id="Name" type="text"  required/>
+                              </div>
+                              <div class="fill_wrap">
+                                <label for="Phone ">Phone number</label>
+                                <input id="Phone " type="tel"  required/>
+                              </div>
+                              <p>You privacy means everything to us</p>
+                              <input type="submit" class="main_btn orange_btn" value="CALCULATE COST">
+                              </button>
+                              <div class="proress">
+                                <div class="proress_item">
+                                  <div>
+                                    <span>
+                                      1
+                                    </span>
+                                  </div>
+                                  <p>
+                                    Destination
+                                  </p>
+                                </div>
+                                <div class="proress_item">
+                                  <div>
+                                    <span>
+                                      2
+                                    </span>
+                                  </div>
+                                  <p>
+                                    Vehicle
+                                  </p>
+                                </div>
+                                <div class="proress_item">
+                                  <div>
+                                    <span>
+                                      3
+                                    </span>
+                                  </div>
+                                  <p>
+                                    Date
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
     <header>
       <div class="container-fluid just_btwn align_center">
         <div class="logo_part align_center">
@@ -57,7 +276,7 @@
         </ul>
         <div class="just_btwn align_center contacts_header">
           <a class="header_tel" href="+12345678900">+1 (234) 567 89 00</a>
-          <a href="" class="main_btn grey_btn">
+          <a href="" class="main_btn grey_btn" data-toggle="modal" data-target="#myModal">
             <span>
               Request a Quote
             </span>
@@ -74,7 +293,7 @@
           <p class="subtitle">
             Get quotes from approved vehicle shipping carriers
           </p>
-          <a href="" class="main_btn orange_btn">
+          <a href="" class="main_btn orange_btn" data-toggle="modal" data-target="#myModal">
             <span>
               Request a Quote
             </span>
@@ -151,7 +370,7 @@
               We provide wide range of solutions for vehicle shipping
             </p>
           </div>
-          <a href="" class="main_btn orange_btn">
+          <a href="" class="main_btn orange_btn" data-toggle="modal" data-target="#myModal">
             <span>
               Request a Quote
             </span>
@@ -273,7 +492,7 @@
             </div>
           </div>
         </div>
-        <a href="" class="main_btn orange_btn phone_btn">
+        <a href="" class="main_btn orange_btn phone_btn" data-toggle="modal" data-target="#myModal">
           <span>
             Request a Quote
           </span>
@@ -575,7 +794,7 @@
             Get a full-scale analysis of your business and recommended solutions
             to increase your profits.
           </p>
-          <a href="" class="main_btn white_btn">
+          <a href="" class="main_btn white_btn" data-toggle="modal" data-target="#myModal">
             <span>
               Request a Quote
             </span>
